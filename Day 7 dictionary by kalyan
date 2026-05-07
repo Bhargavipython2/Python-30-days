@@ -1,0 +1,19 @@
+# Day 7 - Dictionary by Kalyan
+print("--- Kalyan Contacts App ---")
+
+kalyan_contacts = {
+    "Amma": "9876543210",
+    "Nanna": "9123456789",
+    "BestFriend": "9999988888"
+}
+
+print("Amma Number:", kalyan_contacts["Amma"])
+print("Nanna Number:", kalyan_contacts["Nanna"])
+
+# Kotha contact add cheyadam
+kalyan_contacts["CompanyHR"] = "8888877777"
+print("Anni Contacts:", kalyan_contacts)
+
+# Value change cheyadam
+kalyan_contacts["BestFriend"] = "7777766666"
+print("Updated BestFriend:", kalyan_contacts["BestFriend"])
