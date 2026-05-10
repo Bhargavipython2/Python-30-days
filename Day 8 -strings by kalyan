@@ -1,0 +1,21 @@
+# Day 8 - Strings by Kalyan
+print("--- Kalyan String Test ---")
+
+name = "kalyan reddy"
+email = "kalyan@gmail.com"
+
+# 1. Capital letters lo marchadam
+print("Uppercase:", name.upper())
+
+# 2. Small letters lo marchadam  
+print("Lowercase:", email.lower())
+
+# 3. Text lo part teesukovadam (Slicing)
+print("First 6 letters:", name[0:6])
+
+# 4. Text join cheyadam
+full_name = name + " from Hyderabad"
+print("Joined:", full_name)
+
+# 5. Length kanipettadam
+print("Length of name:", len(name)) 
