@@ -1,0 +1,21 @@
+# Day 9 - File Handling by Kalyan
+print("--- Kalyan Notes App ---")
+
+# 1. File lo rayadam - "w" means write
+file = open("kalyan_notes.txt", "w")
+file.write("Day 1: Print\n")
+file.write("Day 2: If-Else\n")
+file.write("Day 9: File Handling\n")
+file.close()
+print("Data saved to file ✅")
+
+# 2. File nundi chadavadam - "r" means read
+file = open("kalyan_notes.txt", "r")
+content = file.read()
+print("\nFile Content:")
+print(content)
+file.close()
+
+# 3. File ki add cheyadam - "a" means append
+file = open("kalyan_notes.txt", "a")
+file.write("Day 10: Coming Soon\n")
