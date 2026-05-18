@@ -1,0 +1,26 @@
+# Day 10 - Lists by Kalyan
+print("--- Kalyan Todo List ---")
+
+# 1. List create cheyadam
+skills = ["Python", "HTML", "CSS"]
+print("Skills:", skills)
+
+# 2. List lo item add cheyadam
+skills.append("JavaScript")
+print("After adding JS:", skills)
+
+# 3. List lo item teeseyadam
+skills.remove("HTML")
+print("After removing HTML:", skills)
+
+# 4. List lo item access cheyadam - Index use chestam
+print("First skill:", skills[0])
+print("Second skill:", skills[1])
+
+# 5. List length
+print("Total skills:", len(skills))
+
+# 6. Loop tho anni print cheyadam
+print("\nMy Skills:")
+for skill in skills:
+    print("-", skill)
